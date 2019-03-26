@@ -1,0 +1,77 @@
+.nes-field,
+.nes-container {
+  margin-bottom: 1.5rem !important;
+}
+
+.nes-container {
+  position: initial !important;
+}
+
+a.nes-btn {
+  text-decoration: none !important;
+}
+
+a.nes-btn:hover {
+  color: inherit !important;
+}
+
+.nes-input {
+  -webkit-appearance: none;
+}
+
+.nav ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav li {
+  display: inline;
+  margin: 5px;
+}
+
+.nav .active {
+  color: #000;
+}
+
+.feed {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  flex: 1 0 33%;
+  padding: 3%;
+}
+
+.photo--img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.photo--modal-overlay {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.32);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.photo--modal {
+  background: #fff;
+  max-height: 80%;
+  max-width: 80%;
+  position: relative;
+}
+
+.photo--modal-img {
+  width: 100%;
+}
